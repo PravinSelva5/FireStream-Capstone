@@ -23,7 +23,7 @@
  
  `sudo apt-get install motion`
  
- `lsusb` [This is how you check if your peripheral is seen by the MCU]
+ `lsusb`  *This is how you check if your peripheral is seen by the MCU*
 <br />  `sudo nano /etc/motion/motion.conf`<br /> 
 
 |Settings    |
