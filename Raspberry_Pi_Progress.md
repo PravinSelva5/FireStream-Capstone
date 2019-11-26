@@ -10,7 +10,7 @@
   <br /> 4. Get the IP address of the pi <br /> 
  ### __ Windows __
 <br /> Type IP address into PuTTY <br /> 
-<br /> Type in pi as the user and then firestream for the password <br />
+<br /> Type in pi for login as: and then firestream for the password: <br />
  ### __ MAC __ 
     Open terminal --> ssh pi@<IPaddress> 
     Type firestream for the password
