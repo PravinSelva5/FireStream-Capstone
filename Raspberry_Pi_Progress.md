@@ -15,7 +15,7 @@
     Open terminal --> ssh pi@<IPaddress> 
     Type firestream for the password
  
-<br /> #### __THEN YOU SHOULD BE CONNECTED!__  <br />
+<br />  __THEN YOU SHOULD BE CONNECTED!__  <br />
  
  ## __Configuring the Webcam__
  
