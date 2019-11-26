@@ -1,3 +1,5 @@
+# __Creating Google Cloud Account__
+
 Create Google Cloud account with PERSONAL google email NOT MAC as it doesnt support it.
 They'll ask for your debit/credit stuff, but they wont charge you without your consent and we have a year to use it with $300 credit.
 Read the following links to familiarize yourself with setting up raspberry Pi and cloud:
