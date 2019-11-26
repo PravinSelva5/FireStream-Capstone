@@ -23,7 +23,7 @@
  
  `sudo apt-get install motion`
  
- `lsusb` [Check if the webcam you're using is present]
+ `lsusb` [This is how you check if your peripheral is seen by the MCU]
  
  `sudo nano /etc/motion/motion.conf`
  
@@ -44,10 +44,10 @@ change start_motion_daemon --> yes
 
 `sudo service motion restart`
 
-`sudo motion`  [the webcam will be turned on after this command]
+`sudo motion`  [the webcam will be turned on]
 
-open a web browser --> type http://<IP address>:<stream_port>
-Now you should see whatever the camera is seeing
+open a web browser --> type `http://<IP address>:<stream_port>`
+
  
  
 
