@@ -24,20 +24,21 @@
  `sudo apt-get install motion`
  
  `lsusb` [This is how you check if your peripheral is seen by the MCU]
- 
- `sudo nano /etc/motion/motion.conf`
- 
-   - daemon --> ON
-   - framerate --> 1500
-   - width --> 640
-   - height --> 480
-   - stream_port --> 8081
-   - stream_quality --> 50
-   - stream_localhost --> OFF
-   - webcontrol_localhost --> OFF
-   - quality --> 100
-   - brightness --> 20
-   - post_capture --> 5
+<br />  `sudo nano /etc/motion/motion.conf`<br /> 
+
+|Settings    |
+|    ---     |
+| daemon --> ON |
+| framerate --> 1500|
+| width --> 640|
+|height --> 480|
+|stream_port --> 8081|
+|stream_quality --> 50|
+|stream_localhost --> OFF|
+|webcontrol_localhost --> OFF|
+|quality --> 100|
+|brightness --> 20|
+|post_capture --> 5|
 
 `sudo nano /etc/default/motion`
 change start_motion_daemon --> yes
