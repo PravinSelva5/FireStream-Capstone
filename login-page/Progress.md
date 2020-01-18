@@ -18,7 +18,25 @@
 - [ ] Connect this web app to AWS
   
 ### Other Important Details
+    * Access local host by typing localhost in browser
+    * Access web app specifically by typing localhost/firestream in browser
+
 #### MyPhpAdmin Login Info:
     * User: root
     * Password: 1234
+
+### TroubleShooting Tips for Apache:
+    * Go into services 
+      * STOP World Wide Web Publishing Services
+      * START Apache2.4
+    * Place folder for web app and phpadmin under C:/Apache24/htdocs
+    
+### Links I Used:
+    * To Install Apache, MySql, PhP: https://youtu.be/kuMTZowwjus
+    * To Install phpMyAdmin: https://youtu.be/hqfIksHKPPg
+    * To Set Up Back End:
+      * https://youtu.be/OHjkg_rifTw
+      * https://youtu.be/wp6Ngpk5XiY
+      * https://stackoverflow.com/questions/22129273/display-error-message-on-same-page-for-login
+      
   
