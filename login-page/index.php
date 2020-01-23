@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
         rel="stylesheet"
       />
+      <link rel="icon" href="./images/FireStreamLogo.png">
     </head>
 
     <body>
