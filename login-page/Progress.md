@@ -12,6 +12,7 @@
   - [x] Install phpmyadmin
   - [x] Set up firestream databse in mysql
   - [x] Add default database entry of user: admin, password: admin
+  - [x] Installed Apache, PHP, MySQl and phpMyadmin on AWS instance
   
 ## Things To Do:
 - [ ] Add streaming video on member.php
