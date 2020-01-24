@@ -12,7 +12,15 @@
   - [x] Install phpmyadmin
   - [x] Set up firestream databse in mysql
   - [x] Add default database entry of user: admin, password: admin
+  
+## AWS
   - [x] Installed Apache, PHP, MySQl and phpMyadmin on AWS instance
+  
+### Links I used
+  * Getting started with Amazon EC2 Linux Instances: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-connect-to-instance-linux
+  * Connecting to Linux Instance: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html
+    * Connecitn to Linex Instance through Putty: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
+  * Installing Apache, PHP, mySQL, phpMyAdmin: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html#prepare-lamp-server-alami
   
 ## Things To Do:
 - [ ] Add streaming video on member.php
