@@ -5,16 +5,16 @@
 
     if (!empty($username) && !empty($password)){
     define('DB_NAME', 'firestream');
-    define('DB_USER','root');
-    define('DB_PASSWORD','1234');
-    define('DB_HOST', 'localhost');
+    define('DB_USER','admin');
+    define('DB_PASSWORD','firestream');
+    define('DB_HOST', 'aa1rb97mk9tearq.cmserg3y5aet.ca-central-1.rds.amazonaws.com');
 
     $link=mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD) or die ("Could not connect!"); //attempts to connect to phpmyadmin
 
     $db=mysqli_select_db($link,DB_NAME) or die ("Could not connect to database!"); //attempts to connect to database
     
 
-    $sql = "SELECT * FROM loginform where User='".$username."'AND Pass='".$password."'limit 1";
+    $sql = "SELECT * FROM loginform where Username='".$username."'AND Pass='".$password."'limit 1";
 
     $query = mysqli_query($link,$sql);
     $numrows = mysqli_num_rows($query);
