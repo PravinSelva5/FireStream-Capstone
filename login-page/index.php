@@ -15,7 +15,7 @@
       <link rel="icon" href="./images/FireStreamLogo.png">
     </head>
 
-    <body>
+    <body class="index">
       <img
         src="./images/FireStreamLogo.png"
         width="200px"
@@ -24,14 +24,16 @@
       />
       <form action="connect.php" method="post">
         <div class="form">
-          <h5>Username</h5>
-          <input type="username" name="username" id="" placeholder="Username" />
-          <br />
-          <h5>Password</h5>
-          <input type="Password" name="password" placeholder="Password" />
-          <br />
-          <br />
-          <input type="Submit" name="submit" value="LOGIN" />
+          <h1>Login</h1>
+          <div class="input-box">
+            <i class="fa fa-user"></i>
+              <input class="login-field" type="username" name="username" id="" placeholder="Username" />
+          </div>
+          <div class="input-box">
+            <i class="fa fa-key"></i>
+              <input class="login-field" type="Password" name="password" id="" placeholder="Password" />
+          </div>
+          <input class="login-btn" type="Submit" name="submit" value="LOGIN" />
         </div>
       </form>
       <div id="errorMssg">
