@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -115,9 +116,30 @@ h5,
   color: white;
 }
 .recvid {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  padding: 135px 240px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-color: #ccc;
-  border: 1px solid #ff0000;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
 }
