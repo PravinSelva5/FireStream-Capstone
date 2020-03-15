@@ -21,23 +21,12 @@ $objects = $s3->getIterator('ListObjects',[
         <a class="active" href="videos.php">Recorded Footage</a>
         <a class="last" href="../index.php">Log Out</a>
     </div>
-    <table>
-        <thead>
-            <tr>
-                <th>Video</th>
-                <th>Date</th>
-                <th>View</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php foreach($objects as $object): ?>
-            <tr>
-                <td><?php echo $object['Key']; ?></td>
-                <td><?php echo $object['LastModified'];?></td>
-                <td><a class= "recvid" href="<?php echo $s3->getObjectUrl($config['s3']['bucket'],$object['Key'], '+10 minutes');?>">View</a></td>
-            </tr>
-            <?php endforeach; ?>
-        </tbody>
-    </table>
+    <div class="row">
+        <?php foreach($objects as $object): ?>
+        <div class="column">
+            <a class= "recvid" href="<?php echo $s3->getObjectUrl($config['s3']['bucket'],$object['Key'], '+10 minutes');?>"><?php echo $object['LastModified'];?></a></td>
+        </div>
+        <?php endforeach;?> 
+    </div>
 </body>
 </html>
