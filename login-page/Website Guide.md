@@ -16,6 +16,14 @@
     * To Install phpMyAdmin: https://youtu.be/hqfIksHKPPg
 
 * To transfer whatever you worked on in localhost to AWS for deployment:
+  * AWS works with its RDS service for the database and I used MySQL Workbench (installed on my computer) to connect to that database:
+    * Connection Info:
+      * User: admin
+      * Password: firestream-db.cmserg3y5aet.ca-central-1.rds.amazonaws.com
+      * Port: 3306
+    * After connecting to the database, I used SQL to create a table of loginform in the firestream database and inserted info of user: admin, pass: admin in to that table (notice how this is similar to phpMyAdmin database table info):
+      * SQL code: INSERT INTO loginform VALUES
+		  (1, 'admin', 'admin');loginform
   * Every file EXCEPT connect.php (the file that connects to our local database in phpMyAdmin) will remain the same
     * To connect to Amazon RDS instead of phpMyAdmin make the following changes in connect.php:
       * Change DB_USER to ‘admin’ 
