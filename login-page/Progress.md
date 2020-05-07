@@ -1,6 +1,5 @@
 # Progress
 ## Front End Development
-  - [x] Create index.php
   - [x] Create styles.css
   - [x] Create connect.php
   - [x] Create member.php
@@ -21,10 +20,6 @@
   * Connecting to Linux Instance: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html
     * Connecting to Linux Instance through Putty: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
   * Installing Apache, PHP, mySQL, phpMyAdmin: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html#prepare-lamp-server-alami
-  
-## Things To Do:
-- [ ] Add streaming video on member.php
-- [ ] Connect this web app to AWS
   
 ### Other Important Details
   * Access local host by typing localhost in browser
