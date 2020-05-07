@@ -42,8 +42,9 @@
   *	styles.css -> Front-end styling is handled here
   *	Under S3 folder:
     *	Under app folder:
-      *	config.php -> Contains our key and secret to access our S3 bucket for video storage
-      *	start.php -> Connects us to our S3 bucket using information from config.php
+    	* config.php -> Contains our key and secret to access our S3 bucket for video storage
+      	* start.php -> Connects us to our S3 bucket using information from config.php
     *	videos.php -> Uses start.php and grabs the videos stored in our S3 bucket for viewing by users
+ 
 
 
