@@ -1,4 +1,4 @@
-# Website Guide
+# Web Development Guide
 * Create a local host on your computer where you can test out website. Provides you more advantages then just opening your files (index.html) on chrome because you can see if backend works as well such as the login page. Technically you do not need phpMyAdmin anymore as I needed this before we got AWS setup to create our backend for login but if you want to learn and have something for other projects without AWS dependence I recommend installing it. You could skip installing this and just connect to our RDS if you wish.
   * Steps:
     * Install Apache24
